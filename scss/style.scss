@@ -11,6 +11,10 @@
 @import "~bootstrap/scss/utilities/borders";
 @import "~bootstrap/scss/utilities/sizing";
 
+@import "border";
+@import "position";
+@import "box-shadow";
+
 .stretch {
   position: absolute;
   top: 0;
@@ -30,16 +34,4 @@ ul {
 
 .clickable {
   cursor: default;
-}
-
-.pos-relative {
-  position: relative;
-}
-
-.pos-absolute {
-  position: absolute;
-}
-
-.box-shadow {
-  box-shadow: $box-shadow;
 }

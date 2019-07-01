@@ -1,15 +1,8 @@
 $black: #000;
 $white: #fff;
-$gray: #aaa;
-$blue: #00a;
-$yellow: #ff5;
+$gray: #abb8c3ff;
+$pink: fuchsia;
 $red: #a00;
-$green: #5f5;
-$cyan: #5ff;
-$gray-dark: #555;
-$green-dark: #0a0;
-$cyan-dark: #0aa;
-$magenta: #a0a;
 
 /*
 #000 => #aaa
@@ -29,21 +22,14 @@ $theme-colors: (
   black: $black,
   white: $white,
   gray: $gray,
-  blue: $blue,
-  yellow: $yellow,
+  pink: $pink,
   red: $red,
-  green: $green,
-  cyan: $cyan,
-  gray-dark: $gray-dark,
-  green-dark: $green-dark,
-  cyan-dark: $cyan-dark,
 );
 
 $spacer: 4px;
 $spacers: (
         -2: $spacer * -2,
         0: 0,
-        11: $spacer * 0.5,
         1: $spacer * 1,
         2: $spacer * 2,
         3: $spacer * 3,
@@ -51,7 +37,12 @@ $spacers: (
         5: $spacer * 5,
         6: $spacer * 6,
         7: $spacer * 7,
-        8: $spacer * 8
+        8: $spacer * 8,
+        9: $spacer * 9,
+        10: $spacer * 10,
+        11: $spacer * 11,
+        12: $spacer * 12,
+        13: $spacer * 13
 );
 
 $font-size-base: 14px;
@@ -61,4 +52,4 @@ $input-height-inner-sm: 16px; // fuck bootstrap
 $input-height-inner-lg: 16px; // fuck bootstrap
 $nav-link-height:16px; // fuck bootstrap
 
-$box-shadow: 16px 16px rgba(0,0,0,0.7);
+// $box-shadow: 16px 16px rgba(0,0,0,0.7);
